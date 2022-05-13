@@ -1,0 +1,207 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  background: -webkit-gradient(linear, left top, left bottom, from(#eaeded), to(white));
+  background: linear-gradient(#eaeded, white);
+}
+
+.section_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  margin-bottom: 6vh;
+}
+
+.section_1 a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
+.section_1 #alexandre {
+  width: 500px;
+  height: 335px;
+  border: #232f3e groove 2px;
+  border-radius: 20px;
+}
+
+.section_1 a {
+  text-decoration: none;
+}
+
+.section_1 a:hover {
+  color: #2c75ff;
+}
+
+.section_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: justify;
+}
+
+.section_2 #paragraphs p {
+  margin-bottom: 2vh;
+}
+
+.section_2 .neighbors {
+  font-style: italic;
+}
+
+.section_2 h2 {
+  font-size: xx-large;
+  margin-top: 8vh;
+  margin-bottom: 6vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #232f3e;
+}
+
+.section_2 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1vh;
+}
+
+.section_2 #farmer_sPhilosophy {
+  border: solid black 1px;
+  margin-bottom: 6vh;
+  width: 75%;
+  margin-left: 12.5vw;
+  text-align: center;
+}
+
+.section_2 #farmer_sPhilosophy .B {
+  color: #034b03;
+}
+
+.section_2 #farmer_sPhilosophy .G {
+  color: #df6060;
+}
+
+.section_2 #farmer_sPhilosophy th {
+  border: solid black 1px;
+  color: #232f3e;
+  width: 10vw;
+}
+
+.section_2 #farmer_sPhilosophy td {
+  border: solid black 1px;
+  width: 10vw;
+}
+
+.section_2 #farmer_sPhilosophy caption {
+  text-align: start;
+  margin-bottom: 6vh;
+  text-decoration: underline;
+}
+
+.section_3 h2 {
+  font-size: xx-large;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section_3 .style_test {
+  margin-top: 8vh;
+}
+
+.section_3 .style_test .G {
+  color: #034b03;
+}
+
+.section_3 .style_test .B {
+  color: #df6060;
+}
+
+#navbar {
+  position: fixed;
+  background-color: #232f3e;
+  height: 25px;
+  width: 100vw;
+}
+
+#navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.5vw;
+  margin-right: 10px;
+  text-transform: uppercase;
+  color: #eaeded;
+  padding-top: 4px;
+}
+
+#navbar ul li:hover {
+  color: #2c75ff;
+}
+
+header {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #131921;
+  height: 25px;
+  width: 100vw;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  color: #eaeded;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 2vw;
+  background-color: #131921;
+  color: #eaeded;
+  padding: 6vh 2vw 2vh 2vw;
+}
+
+footer #copyright {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+}
+
+footer a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
+  text-decoration: none;
+}
+
+footer a :hover {
+  color: #034b03;
+}
+/*# sourceMappingURL=index.css.map */

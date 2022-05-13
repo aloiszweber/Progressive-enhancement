@@ -1,0 +1,204 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    background: linear-gradient(#eaeded, white);
+}
+
+.section_1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-bottom: 6vh;
+    a {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: small;
+    }
+
+    #alexandre{
+        width: 500px;
+        height: 335px;
+        border: #232f3e groove 2px;
+        border-radius: 20px;
+        
+    
+    }
+
+    a {
+        text-decoration: none;
+    
+        &:hover {
+            color: #2c75ff;
+        }
+    
+    }
+}
+
+
+.section_2 {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+    #paragraphs p {
+
+    margin-bottom: 2vh;
+
+    
+}
+
+.neighbors {
+    font-style: italic;
+}
+
+   
+
+    h2 {
+        font-size: xx-large;
+        margin-top: 8vh;
+        margin-bottom: 6vh;
+        font-family: 'Montserrat', sans-serif;
+        color:#232f3e;
+
+    }
+
+    ul {
+        display: flex;
+        gap: 1vh;;
+    li {
+
+    }
+
+    }
+
+    #farmer_sPhilosophy {
+
+        border: solid black 1px;
+        margin-bottom: 6vh;
+        width: 75%;
+        margin-left: 12.5vw;
+        text-align: center;
+
+        .B {
+            color: rgb(3, 75, 3);
+        }
+
+        .G{
+            color: rgb(223, 96, 96);
+        }
+
+        th {
+            border: solid black 1px;
+            color: #232f3e;
+            width: 10vw;
+
+        }
+
+        td {
+            border: solid black 1px;
+            width: 10vw;
+        }
+
+        caption {
+            text-align: start;
+            margin-bottom: 6vh;
+            text-decoration: underline;
+        }
+    }
+
+   
+}
+
+.section_3 {
+    
+
+    h2 {
+        font-size: xx-large;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .style_test {
+        margin-top: 8vh;
+
+        .G {
+            color: rgb(3, 75, 3);
+        }
+
+        .B {
+            color: rgb(223, 96, 96);
+        }
+
+    }
+
+}
+
+#navbar {
+    position: fixed;
+    background-color: #232f3e;
+    height: 25px;
+    width: 100vw;    
+
+    ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.5vw;
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #eaeded;
+    padding-top: 4px;
+
+    li {
+        &:hover {
+            color: #2c75ff;
+        }
+    }
+    }
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #131921;
+    height: 25px;
+    width: 100vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #eaeded;
+
+
+}
+
+#date {
+
+}
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    background-color: #131921;
+    color: #eaeded;
+    padding: 6vh 2vw 2vh 2vw;
+
+    #copyright {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: small;
+    }
+
+    a {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: small;
+        text-decoration: none;
+
+        :hover {
+            color: rgb(3, 75, 3);
+        }
+    }
+}
+
+

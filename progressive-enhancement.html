@@ -4,78 +4,102 @@
     <title>The story of the Chinese farmer</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="progressive-enhancement.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <header>
       <h1 id="header-story">The story of the Chinese farmer</h1>
 
-      <q class="Big"> 11 may 2016, Alexandre Gorius</q>
+      <q id="date"> 11 may 2016, Alexandre Gorius</q>
 
-      <img
-        src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg"
-        alt="Photo de Alexandre Gorius"
-      />
-      <a href="https://www.youtube.com/watch?v=rUl6Nh4GDyo">
-        Video of the dream of Alexandre Gorius
-      </a>
     </header>
 
-    <section>
+    <div id="navbar">
+
+      <ul>
+        <li> His dream </li>
+        <li> Favorites drinks </li>
+        <li> Favorites foods </li>
+        <li> Hobbies </li>
+      </ul>
+
+    </div>
+
+    <section class="section_1">
+
+      <table> 
+        <ul>
+          <li>
+            <a href="https://www.youtube.com/watch?v=rUl6Nh4GDyo"> <img id="alexandre" src="https://cdn-images-1.medium.com/max/1000/1*2PCmLZyzQaF2pyKYkSTFpA.jpeg" alt="Photo de Alexandre Gorius"/> </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/watch?v=rUl6Nh4GDyo">
+              Video of the dream of Alexandre Gorius
+            </a>
+          </li>
+        </ul>
+      </table>
+
+    </section>
+
+    <section class="section_2">
       <h2>Preamble</h2>
 
       <ul>
-        <li><b>Read this once</b></li>
-        <li><b>Then read it again</b></li>
-        <li><b>Then tell it to your best friend</b></li>
+        <li><b>Read this once,</b></li>
+        <li><b>then read it again,</b></li>
+        <li><b>then tell it to your best friend.</b></li>
       </ul>
 
       <h2>The story</h2>
 
-      <p id="1p">
-        Once upon a time there was a Chinese farmer whose horse ran away. That
-        evening, all of his neighbors came around to commiserate. They said,
+      <div id="paragraphs">
+        
+        <p> Once upon a time there was a Chinese farmer whose horse ran away. </p> 
+        
+        <p> That evening, all of his neighbors came around to commiserate. They said,
         <q class="neighbors">
           We are so sorry to hear your horse has run away. This is most
           unfortunate.
         </q>
-        The farmer said, <q class="farmer"><em>Maybe</em></q
-        >. The next day the horse came back bringing seven wild horses with it,
+        The farmer said, <q class="farmer"><em>Maybe</em>. </q> </p>
+          
+        <p> The next day the horse came back bringing seven wild horses with it,
         and in the evening everybody came back and said,
         <q class="neighbors">
           Oh, isn’t that lucky. What a great turn of events. You now have eight
           horses!
         </q>
-        The farmer again said, <q class="farmer"><em>Maybe</em></q
-        >. The following day his son tried to break one of the horses, and while
+        The farmer again said, <q class="farmer"><em>Maybe</em>.</q
+        > </p> <p> The following day his son tried to break one of the horses, and while
         riding it, he was thrown and broke his leg. The neighbors then said,
         <q class="neighbors"
           >Oh dear, that’s too <span class="B"> bad </span> ,</q
         >
-        and the farmer responded, <q class="farmer"><em>Maybe</em></q
-        >. The next day the conscription officers came around to conscript
+        and the farmer responded, <q class="farmer"><em>Maybe</em>.</q
+        > </p> <p> The next day the conscription officers came around to conscript
         people into the army, and they rejected his son because he had a broken
         leg. Again all the neighbors came around and said,
         <q class="neighbors">Isn’t that great!</q> Again, he said,
-        <q class="farmer"><em>Maybe</em></q
-        >. The whole process of nature is an integrated process of immense
+        <q class="farmer"><em>Maybe</em>. </q
+        > </p> The whole process of nature is an integrated process of immense
         complexity, and it’s really impossible to tell whether anything that
         happens in it is <span class="G"> good </span> or
         <span class="B"> bad </span> because you never know what will be the
         consequence of the misfortune; or, you never know what will be the
         consequences of <span class="G"> good </span> fortune. Alan Watts
-      </p>
+        </div>
 
       <h2>Here is this dialog in the form of a table</h2>
 
-      <table>
+      <table id="farmer_sPhilosophy">
         <caption>
           Table representing the farmer's philosophy.
         </caption>
@@ -83,36 +107,36 @@
           <tr>
             <th>Event</th>
             <th>
-              <span class="G"> good </span> or <span class="B"> bad </span>
+              <span class="G"> Good </span> or <span class="B"> Bad </span>
             </th>
           </tr>
         </thead>
         <tbody>
           <tr class="impaire">
-            <td>Lose a horse</td>
+            <td style="text-align: left;">Lose a horse</td>
             <td><em>Maybe</em></td>
           </tr>
           <tr class="paire">
-            <td>Win more horses</td>
+            <td style="text-align: left;">Win more horses</td>
             <td><em>Maybe</em></td>
           </tr>
           <tr class="impaire">
-            <td>Son injury</td>
+            <td style="text-align: left;">Son injury</td>
             <td><em>Maybe</em></td>
           </tr>
           <tr class="paire">
-            <td>Avoid war</td>
+            <td style="text-align: left;">Avoid war</td>
             <td><em>Maybe</em></td>
           </tr>
         </tbody>
       </table>
     </section>
 
-    <section>
+    <section class="section_3">
       <h2>Conclusion</h2>
 
-      <p>
-        <span class="G"> good </span> and <span class="B"> bad </span> are just
+      <p class="style_test">
+        <span class="G"> Good </span> and <span class="B"> bad </span> are just
         one perspective. Bananas are <span class="G"> good </span> for monkeys,
         but monkeys are not <span class="G"> good </span> for bananas. Let's not
         make a big deal out of it...
@@ -121,7 +145,7 @@
     </section>
 
     <footer>
-      <p>
+      <p id="copyright">
         Copyright Just Another Company 2017. All right reserved. Adapted from
         this article: <br /><br /><br />
       </p>
