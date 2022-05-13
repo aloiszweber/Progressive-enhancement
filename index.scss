@@ -43,6 +43,7 @@ body {
     #paragraphs p {
 
     margin-bottom: 2vh;
+    margin-left: 2vw;
 
     
 }
@@ -59,12 +60,15 @@ body {
         margin-bottom: 6vh;
         font-family: 'Montserrat', sans-serif;
         color:#232f3e;
+        margin-left: 1vw;
 
     }
 
     ul {
         display: flex;
-        gap: 1vh;;
+        gap: 1vh;
+        margin-left: 2vw;
+
     li {
 
     }
@@ -115,10 +119,12 @@ body {
     h2 {
         font-size: xx-large;
         font-family: 'Montserrat', sans-serif;
+        margin-left: 1vw;
     }
 
     .style_test {
         margin-top: 8vh;
+        margin-left: 2vw;
 
         .G {
             color: rgb(3, 75, 3);
